@@ -1,0 +1,127 @@
+<!DOCTYPE> <!--The first line is used to define the type of the html file-->
+<html>
+	<head>
+		<title>
+			Hello
+		</title>
+	</head>
+	<body>
+		<!-- Headings -->
+		<h1> Heading one </h1>
+		<h2> Heading two </h2>
+		<h3> Heading three </h3>
+		<h4> Heading four </h4>
+		<h5> Heading five </h5>
+		<h6> Heading six </h6>
+
+		<!-- Paragraphs -->
+		<p>
+			<!-- Type "lorem" + tab to generate a random paragraph-->
+			Hello this is a paragraph.<br><!-- "<br>" is used to break a line-->
+			Yes it is.
+		</p>
+		<!-- We can make inline changes in the paragraph by using inline tags(the tags which do not change line), like <strong> </strong> (used to bold the text), <em> </em>(used to italic),<a> </a> (used to link eg. <a href="paste address here"> <a>) etc.-->
+			<!-- using target="_blank" opens the link in a new tab -->
+
+		<p>
+			This is another paragraph.
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor <strong>incididunt ut labore</strong> et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. <em>Duis aute irure dolor in reprehenderit</em> in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. <a href="http://google.com" target="_blank">Excepteur sint </a>occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+
+		<!-- Lists in html 
+		1. Unordered Lists <ul> </ul> (Have no numbering just bullets)
+		2. Ordered Lists <ol> </ol> ( Have numbering)
+		-->
+
+
+		<ul>
+			<li> One </li>
+			<li> Two </li>
+			<li> Three </li>
+		</ul>
+
+		<ol>
+			<li> One </li>
+			<li> Two </li>
+			<li> Three </li>
+		</ol>
+
+		<!-- Tables --> 
+		<table>
+			<!-- A table in itself have a head and a head and a body -->
+
+			<thead><!-- Table head -->
+				<tr> <!-- Table row -->
+					<th> Name </th>
+					<th> email </th>
+					<th> Age </th>
+				</tr>
+
+			</thead> 
+		
+			<tbody><!-- Table body -->
+				<tr>
+					<td> Gautam </td> <!-- Table data -->
+					<td> Gautam@yes.com</td>
+					<td> 21 </td>
+				</tr>
+
+				<tr>
+					<td> Tyson </td>
+					<td> Tyson@yes.com</td>
+					<td> 29 </td>
+				</tr>
+
+				
+
+			</tbody>
+			
+
+
+		</table>
+		<br>
+
+		<!-- Forms-->
+		<!-- Forms are generally used to take input from the users, we can just take the input but to process the input we need a programming language like php-->
+
+		<form action="process.php" method="POST">
+			<div>      <!-- a div just divides the block-->
+				<label> First Name </label>
+				<input type="text" name="firstName">
+			</div>
+			<br>
+			<div>
+				<label> Last Name </label>
+				<input type="text" name="lastName">
+			</div>
+			<br>
+			<div>
+				<label> Email </label>
+				<input type="email" name="email">
+			</div>
+			<br>
+			<div>
+				<label> message  </label>
+				<textarea> </textarea>
+			</div>
+			<br>
+			<div>
+				<label> gender  </label>
+				<select>
+					<option value="male ">Male</option>
+					<option value="female ">Female</option>
+					<option value="other">Other</option>
+				</select>
+			</div>
+
+		</form>
+
+
+
+	</body>
+</html>
