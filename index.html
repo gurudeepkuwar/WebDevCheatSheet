@@ -92,7 +92,7 @@
 		<form action="process.php" method="POST">
 			<div>      <!-- a div just divides the block-->
 				<label> First Name </label>
-				<input type="text" name="firstName">
+				<input type="text" name="firstName" placeholder="Enter your name">
 			</div>
 			<br>
 			<div>
@@ -118,6 +118,23 @@
 					<option value="other">Other</option>
 				</select>
 			</div>
+			<br>
+			<div>
+				<label> Age: </label>
+				<input type="number" name="age" value="60">
+			</div>
+			<br>
+			<div>
+				<label> DOB: </label>
+				<input type="date" name="dob" >
+			</div>
+			<br>
+			<input type="submit" name="submit" value="Submit">
+			<br>
+			<br>
+			<a href="image.jpg">
+				<img src="image.jpg" width="250" height="160">
+			</a>
 
 		</form>
 
